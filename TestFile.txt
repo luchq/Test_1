@@ -12,7 +12,7 @@
 			  document.write(c);
 	          var c = c+'*';
 			 }
-	    document.write('<br>');
+
 		}
 	}
 	   
