@@ -12,11 +12,11 @@
 			  document.write(c);
 	          var c = c+'*';
 			 }
-
+        //add comment
 		}
 	}
 	   
-	  </script>
+
   </div>
   </body>
 
