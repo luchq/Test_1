@@ -1,0 +1,23 @@
+﻿<html>
+
+
+  <body>
+<div align="center">
+      <script>
+	var starsTree = prompt('Введите кол-во блоков', '');
+	for (var block = 1; block<=+starsTree; block++){
+	    for (var str = 1; str<=block; str++){	         
+			 var c = '*';
+			 for(var b=1;b<=str;b++){			  		
+			  document.write(c);
+	          var c = c+'*';
+			 }
+	    document.write('<br>');
+		}
+	}
+	   
+	  </script>
+  </div>
+  </body>
+
+</html>
